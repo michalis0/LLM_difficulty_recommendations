@@ -1,0 +1,28 @@
+# Virtual Environment
+.venv
+
+# Data
+data
+
+# Logs
+wandb
+.slogs
+
+# Private keys
+.openai_key
+.wandb_key
+.huggingface_key
+
+# Visual Studio Code
+.vscode
+
+# Python specific
+*.pyc
+*.DS_Store
+
+# Logs
+.slogs
+.logs
+
+# Scratch
+scratch
