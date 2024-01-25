@@ -84,4 +84,10 @@ Notebooks are intended to be executed in alphabetical order. Notebooks in the **
 
 ### Topic Classification 🐬
 
+1. `a_DataPreparation` : Ce notebook se charge du télechargement et prétaitement des données utilisées pour l'entrainement et l'évaluation des modèles.
+2. `b_Zero-Shot` : Ce notebook se charge de l'adaptation d'un modèle **FlauBERT** pré-entrainé à notre tâche de classification de sujets. Il évalue également les performances de ce modèle ainsi que celles du modèle Zero-Shot de **mDeBERTa**.
+3. `c_OpenAiTopicClassification` : Ce notebook se charge de l'évaluation des performances zero-shot des modèles OpenAI sur notre tâche de classification de sujets.
+4. `d_FlaubertFineTuned` : Ce notebook vise à entrainer un modèle **FlauBERT** sur notre tâche de classification de sujets. Il évalue également les performances de ce modèle.
+5. `e_CreateFigures` : Ce notebook génère les figures utilisées dans l'article.
+
 ### Recommendation 🐠
