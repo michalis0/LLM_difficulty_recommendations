@@ -1,12 +1,12 @@
-# LLM_difficulty_recommendations
+# Leveraging Large Language Models for Foreign Language Learning: Difficulty Estimation, Topic Estimation and Recommendation
 
 ## Description 🦭
 
-This project contains the code used for our research work described in the article [**Large Language Models for Difficulty Estimation of Foreign Language Content with Application to Language Learning**](https://arxiv.org/abs/2309.05142). It contains all the code for our experiments as well as the notebooks used to generate the figures in the article. The aim of the project is to enable :
+This project contains the code used for our research work described in the article [**Leveraging Large Language Models for Foreign Language Learning: Difficulty Estimation, Topic Estimation and Recommendation**). It contains all the code for our experiments as well as the notebooks used to generate the figures in the article. The aim of the project is to enable :
 - The classification of French texts according to their difficulty,
 - The classification of French texts according to their subject,
 - The recommendation of French texts according to the two previous criteria.
-Each of these objectives is dealt with and detailed in a separate file.
+Each of these objectives is dealt with and detailed in a separate folder.
 
 ## Installation 🐼
 
