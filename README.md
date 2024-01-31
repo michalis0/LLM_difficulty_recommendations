@@ -90,4 +90,6 @@ Notebooks are intended to be executed in alphabetical order. Notebooks in the **
 4. `d_FlaubertFineTuned` : Ce notebook vise à entrainer un modèle **FlauBERT** sur notre tâche de classification de sujets. Il évalue également les performances de ce modèle.
 5. `e_CreateFigures` : Ce notebook génère les figures utilisées dans l'article.
 
-### Recommendation 🐠
+### Recommendations 🐠
+
+The code for the classification experiments is provided in the folder [/recommender_systems](recommender_systems).
