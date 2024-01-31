@@ -92,4 +92,4 @@ Notebooks are intended to be executed in alphabetical order. Notebooks in the **
 
 ### Recommendations 🐠
 
-The code for the classification experiments is provided in the folder [/recommender_systems](recommender_systems).
+The code for the classification experiments is provided in the folder <br> [/recommender_system](recommender_system).
