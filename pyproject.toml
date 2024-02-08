@@ -46,6 +46,7 @@ safetensors = "^0.4.2"
 sentence_transformers = "^2.2.2"
 implicit = "^0.7.2"
 tensorflow = "^2.7.4"
+ipykernel = "^6.29.0"
 
 [build-system]
 requires = ["poetry-core"]
