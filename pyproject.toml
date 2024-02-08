@@ -43,7 +43,9 @@ wandb = "^0.16.0"
 deepspeed = "^0.12.6"
 packaging = "^23.2"
 safetensors = "^0.4.2"
-
+sentence_transformers = "^2.2.2"
+implicit = "^0.7.2"
+tensorflow = "^2.7.4"
 
 [build-system]
 requires = ["poetry-core"]
