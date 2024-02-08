@@ -26,3 +26,6 @@ wandb
 
 # Scratch
 scratch
+
+.python-version
+results/
