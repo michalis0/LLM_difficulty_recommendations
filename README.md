@@ -17,8 +17,8 @@ This project uses the following tools:
 - [Poetry](https://python-poetry.org/docs/#installation) : Python package manager
 Tools that you can install using the following commands:
 ```bash
-> curl https://pyenv.run | bash
-> curl -sSL https://install.python-poetry.org | python3 -
+curl https://pyenv.run | bash
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 
 Some notebooks also require the following installations:
@@ -29,18 +29,18 @@ Some notebooks also require the following installations:
 
 Once you have installed the above tools, you can install the project using the following commands:
 ```bash
-> pyenv install 3.9.13 # Installs the version of Python used in the project
-> pyenv local 3.9.13 # Defines the version of Python used in the project
-> poetry install # Installs project dependencies
+pyenv install 3.9.13 # Installs the version of Python used in the project
+pyenv local 3.9.13 # Defines the version of Python used in the project
+poetry install # Installs project dependencies
 ```
 
 ### Without Pyenv & Poetry 🐙
 
 If you don't want to use Pyenv and Poetry, you can install the project dependencies using the following command:
 ```bash
-> python -m venv .venv # Creates a virtual environment
-> source .venv/bin/activate # Activates the virtual environment
-> pip install -r requirements.txt # Installs project dependencies
+python -m venv .venv # Creates a virtual environment
+source .venv/bin/activate # Activates the virtual environment
+pip install -r requirements.txt # Installs project dependencies
 ```
 
 ## Repository Architecture 🦥
