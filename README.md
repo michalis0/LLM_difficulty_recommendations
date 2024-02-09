@@ -94,5 +94,5 @@ Notebooks are intended to be executed in alphabetical order. Notebooks in the **
 
 1. `a_GetZeeguData`: This notebook prepares the Zeegu dataset for recommendation.
 2. `b_GenerateEmbeddings`: This notebook generates the ADA and BERT embeddings for all the datasets.
-3. `c_Recommendations`: This notebook apply the recommender systems on all datasets. 
+3. `c_Recommendations`: This notebook applies the recommender systems on all datasets. 
 4. `d_Graphic`: This notebook generates a graph depicting how the performance of LightGCN evolves as the number of layers increases, specifically for the Zeegu dataset.
