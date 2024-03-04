@@ -29,3 +29,6 @@ scratch
 
 .python-version
 results/
+
+# Hugging Face repository
+FLDE/

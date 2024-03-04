@@ -57,7 +57,7 @@ class DataManager:
         """This method downloads the data from kaggle.
 
         Args:
-            data_name (str, optional): Which data to download. Can be either "all", "recommandation" or "difficulty_estimation". Defaults to "all".
+            data_name (str, optional): Which data to download. Can be either "all", "recommendation" or "difficulty_estimation". Defaults to "all".
         """
         path_temp = os.path.join(self.pwd, "temp", "Data")
         if os.path.exists(path_temp):
@@ -93,7 +93,7 @@ class DataManager:
                 shutil.rmtree(path_temp)
 
         ## Recommander system data
-        if data_name in ["all", "recommandation"]:
+        if data_name in ["all", "recommendation"]:
             # Check if data has been downloaded
             path_zeeguu = os.path.join(self.pwd, "data", "raw", "zeeguu")
             if os.path.exists(path_zeeguu):
@@ -264,7 +264,7 @@ class DataManager:
         # Check if data has been downloaded
         if not os.path.exists("data/zeeguu"):
             self.logger.warning("Data has not been downloaded yet. Downloading now.")
-            self.download(data_name="recommandation")
+            self.download(data_name="recommendation")
 
         # Define variables
         host = "127.0.0.1"
